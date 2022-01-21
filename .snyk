@@ -6,15 +6,3 @@ exclude:
   code:
 - routes/index.js
 
-ignore:
-  SNYK-JS-ADMZIP-1065796:
-    - '*':
-        reason: None Given
-        expires: 2025-01-10T00:00:00.000Z
-        created: 2021-10-22T17:07:08.632Z
-  'npm:adm-zip:20180415':
-    - '*':
-        reason: Module not affected by this vuln
-        expires: 2024-01-10T00:00:00.000Z
-        created: 2021-11-16T17:30:27.478Z
-patch: {}
