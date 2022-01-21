@@ -1,6 +1,5 @@
-Snyk (https://snyk.io) policy file
+# Snyk (https://snyk.io) policy file
 version: v1.14.0
 exclude:
   code:
-- routes/index.js
-
+     - index.js
