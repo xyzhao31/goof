@@ -8,7 +8,6 @@ jobs:
         steps:
             - checkout
             - run: npm install
-            - run: npx tsc
             - snyk/scan:
                 fail-on-issues: true
                 monitor-on-build: true
